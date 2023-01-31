@@ -1,7 +1,7 @@
 'use strict'
 var HDWalletProvider = require("truffle-hdwallet-provider");
 
-var mnemonic = 'toy disorder topic fancy eager urban wish assist mistake punch east hub';
+var mnemonic = process.env.MNEMONIC;
 
 module.exports = {
   compilers: {
